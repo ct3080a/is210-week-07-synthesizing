@@ -4,12 +4,13 @@
 
 
 def get_matches(players):
-    """Matches players for epic tic-tac-toe matches
+    """Matches players for epic tic-tac-toe matches.
 
     Args:
         players = a list of names
 
     Returns:
+        tuple of player matchups.
 
     Examples:
         >>> import task_01
@@ -17,6 +18,5 @@ def get_matches(players):
         [('Harry', 'Howard'), ('Harry', 'Hugh'), ('Howard', 'Hugh')]
 
     """
-    
     for person1, position1 in enumerate(players):
-        return enumerate(players)
+    return enumerate(players)
